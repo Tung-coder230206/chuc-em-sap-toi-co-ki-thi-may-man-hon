@@ -6,7 +6,7 @@ let hasCelebrated = false;
 surpriseButton.addEventListener("click", () => {
   const isOpen = message.classList.toggle("open");
   surpriseButton.innerHTML = isOpen
-    ? '<span aria-hidden="true">💝</span> Em tuyệt vời lắm!'
+    ? '<span aria-hidden="true">💝</span> Em đã vất vả rồi'
     : '<span aria-hidden="true">🎁</span> Nhận quà tinh thần';
   if (isOpen && !hasCelebrated) {
     hasCelebrated = true;
